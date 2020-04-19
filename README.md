@@ -42,6 +42,6 @@ I use this library to detect face, facial landmarks and extract face parts.
 
 If you really want to know the details in the libraries or functions in my code, I recommend you read the following papers:
 
-	- One millisecond face alignment with an ensemble of regression trees: https://bit.ly/2RPUwtD
+- One millisecond face alignment with an ensemble of regression trees: https://bit.ly/2RPUwtD
 
-	- Real-Time Eye Blink Detection Using Facial Landmarks: https://bit.ly/3bmdqzV
+- Real-Time Eye Blink Detection Using Facial Landmarks: https://bit.ly/3bmdqzV

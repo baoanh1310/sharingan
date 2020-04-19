@@ -5,8 +5,9 @@ In this pet project, I use dlib to predict facial landmarks, then extract eyes f
 # Installation
 
 ```bash
-pip install -r requirements.txt
 git clone https://github.com/baoanh1310/sharingan.git
+cd sharingan
+pip install -r requirements.txt
 ```
 
 # How to run?
@@ -30,3 +31,17 @@ python extract_parts.py --shape-predictor shape_predictor_68_face_landmarks.dat 
 ```bash
 python eye_blink_detect.py --shape-predictor shape_predictor_68_face_landmarks.dat
 ```
+
+# References
+
+## 1. Dlib
+
+I use this library to detect face, facial landmarks and extract face parts.
+
+## 2. Papers
+
+If you really want to know the details in the libraries or functions in my code, I recommend you read the following papers:
+
+	- One millisecond face alignment with an ensemble of regression trees: https://bit.ly/2RPUwtD
+
+	- Real-Time Eye Blink Detection Using Facial Landmarks: https://bit.ly/3bmdqzV

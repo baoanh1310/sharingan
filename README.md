@@ -25,3 +25,8 @@ python facial_landmarks_stream.py --shape-predictor shape_predictor_68_face_land
 ```bash
 python extract_parts.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/elon.jpg
 ```
+
+## 4. If you want to count your eye blink in real-time video stream
+```bash
+python eye_blink_detect.py --shape-predictor shape_predictor_68_face_landmarks.dat
+```

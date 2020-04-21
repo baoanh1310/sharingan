@@ -32,6 +32,11 @@ python extract_parts.py --shape-predictor shape_predictor_68_face_landmarks.dat 
 python eye_blink_detect.py --shape-predictor shape_predictor_68_face_landmarks.dat
 ```
 
+## 5. If you want to try glasses filter on input image
+```bash
+python glasses_effect.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/elon.jpg --glass images/glasses.png
+```
+
 # References
 
 ## 1. Dlib

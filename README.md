@@ -42,6 +42,16 @@ python glasses_effect.py --shape-predictor shape_predictor_68_face_landmarks.dat
 python glasses_stream.py --shape-predictor shape_predictor_68_face_landmarks.dat --glass images/glasses.png
 ```
 
+## 7. If you want to try sharingan filter on input image
+```bash
+python sharingan.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/elon.jpg --eye images/sharingan.png
+```
+
+## 8. If you want to try sharingan filter on video stream
+```bash
+python sharingan_stream.py --shape-predictor shape_predictor_68_face_landmarks.dat --eye images/sharingan.png
+```
+
 # References
 
 ## 1. Dlib

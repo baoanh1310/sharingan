@@ -37,6 +37,11 @@ python eye_blink_detect.py --shape-predictor shape_predictor_68_face_landmarks.d
 python glasses_effect.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/elon.jpg --glass images/glasses.png
 ```
 
+## 6. If you want to try glasses filter on video stream
+```bash
+python glasses_stream.py --shape-predictor shape_predictor_68_face_landmarks.dat --glass images/glasses.png
+```
+
 # References
 
 ## 1. Dlib
